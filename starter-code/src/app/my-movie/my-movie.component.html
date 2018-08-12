@@ -1,0 +1,12 @@
+<p>
+  my-movie works!
+</p>
+
+<div *ngFor="let movie of movies">
+  <h2>ROOM {{movie.id}}</h2>
+  <img [src]=movie.poster />
+  <h4>{{movie.title}}</h4>
+  <button (click)="viewDetails(movie.id)"> View Details</button>
+</div>
+
+<button (click)="goToHome()"> home </button>

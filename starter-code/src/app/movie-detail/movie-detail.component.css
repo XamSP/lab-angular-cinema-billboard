@@ -1,0 +1,13 @@
+div {
+    float: left;
+}
+
+p, h1, h2, ul, li, h5,  {
+   width: 5%;
+    display: block;
+}
+
+.low {
+    width: 600px;
+    margin-left: 10px;
+}
